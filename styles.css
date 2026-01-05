@@ -27,3 +27,44 @@ h1, h2, h3 {
   color: #3a3a3a;
   font-size: 0.95rem;
 }
+
+
+.site-header {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 16px 0;
+    z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #111;
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  opacity: 0.6;
+}
