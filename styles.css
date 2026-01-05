@@ -1,0 +1,29 @@
+/* Styles for Mahlangu Innovations website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #111;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+h1, h2, h3 {
+    margin-bottom: 16px;
+    color: #000000;
+}
+
+.muted {
+  color: #3a3a3a;
+  font-size: 0.95rem;
+}
